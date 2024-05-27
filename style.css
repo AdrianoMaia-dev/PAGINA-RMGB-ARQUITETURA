@@ -39,13 +39,12 @@
 
 .slider {
     margin: 0, 0, 0, 0;
-    width: 1920px;
-    height: 1057px;
+    width: 100%;
     overflow: hidden;
 }
 .slides {
-    width: 400%;
-    height: 1057px;
+    width: 100%;
+    
     display: flex;
 }
 .slides input {
@@ -117,8 +116,8 @@
     display: flex; 
     justify-content: space-between;
     margin: 0% 0% 0% 0%;
-    padding: 10% 10% 10% 10%;
-    background-image: url(./assets/teste\ background.png);
+    padding: 10%;
+    background-image: url(./assets/white\ background.png);
 
 }
 .section_about_content {
@@ -165,7 +164,7 @@
     color: #EEEDEB;
 }
 .projetos {
-    
+  padding: 0% 0% 5% 0%;  
 }
 
 .titulo_projetos {
@@ -175,7 +174,7 @@
     padding: 40px;
     font-family: "Roboto Condensed", sans-serif;
     font-size: 40px;
-    background-image: url(./assets/teste\ background.png);
+    
 }
 .projetos_imagens {
     border-radius: 4px;
