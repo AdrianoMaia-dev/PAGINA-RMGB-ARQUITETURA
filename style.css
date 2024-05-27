@@ -7,6 +7,7 @@
 .body {
     height: 100vh;
     box-sizing: border-box;
+    background-color: #F0F5F9;
 }
 .cabecalho {
     margin: 0% 10% 0% 10%;
@@ -34,9 +35,11 @@
     display: flex;
     gap: 20px;
 }
+
+
 .slider {
     margin: 0, 0, 0, 0;
-    width: 1980px;
+    width: 1920px;
     height: 1057px;
     overflow: hidden;
 }
@@ -109,10 +112,14 @@
 #radio1:checked ~ .navigation_auto .auto_btn1 {
     background-color: #495464;
 }
+
 .section_about {
     display: flex; 
     justify-content: space-between;
-    margin: 5% 10% 5% 10%;
+    margin: 0% 0% 0% 0%;
+    padding: 10% 10% 10% 10%;
+    background-image: url(./assets/teste\ background.png);
+
 }
 .section_about_content {
     display: flex;
@@ -157,21 +164,25 @@
     transform: scale(1.1);
     color: #EEEDEB;
 }
+.projetos {
+    
+}
 
 .titulo_projetos {
     display: flex;
     text-align: center;
     justify-content: center;
-    margin-top: 90px;
+    padding: 40px;
     font-family: "Roboto Condensed", sans-serif;
     font-size: 40px;
+    background-image: url(./assets/teste\ background.png);
 }
 .projetos_imagens {
     border-radius: 4px;
     margin-bottom: 10px;
     column-count: 3;
     column-gap: 3px;
-    margin:5% 10% 5% 10%; 
+    margin:0% 0% 0% 10%; 
 }
 .projetos_imagens img {
     width: 400px;
