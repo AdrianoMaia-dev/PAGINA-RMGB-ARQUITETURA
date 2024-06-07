@@ -93,6 +93,7 @@
 }
 .section_about_paragrafo {
     font-family: "Roboto Condensed", sans-serif;
+    text-align: justify;
 }
 
 .servicos {
